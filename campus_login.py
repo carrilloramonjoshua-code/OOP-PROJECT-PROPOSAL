@@ -34,8 +34,3 @@ def login_screen():
             st.rerun()
         else:
             st.error("Invalid username or password.")
-
-    st.caption(
-        "Demo accounts — Students: juan/1234, liaw/liaw123, carrillo/carrillo123 · "
-        "Admins: admin/admin123, reyes/reyes123, delacruz/delacruz123"
-    )
